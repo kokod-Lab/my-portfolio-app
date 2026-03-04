@@ -29,10 +29,9 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-### 2. Frontend (Next.js)
-```bash
+2. Frontend (Next.js)
+Bash
 cd my-frontend
 npm install
 npm run dev
-
 ブラウザで http://localhost:3000 にアクセスしてください。
