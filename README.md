@@ -35,3 +35,23 @@ cd my-frontend
 npm install
 npm run dev
 ブラウザで http://localhost:3000 にアクセスしてください。
+
+
+修正後のコード（コピー用）
+Markdown
+## 🚀 実行方法
+
+### 1. Backend (Python)
+```bash
+cd my-backend
+python -m venv venv
+# Windowsの場合
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+2. Frontend (Next.js)
+Bash
+cd my-frontend
+npm install
+npm run dev
+ブラウザで http://localhost:3000 にアクセスしてください。
