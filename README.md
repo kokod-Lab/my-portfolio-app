@@ -10,7 +10,7 @@ ECサイトの価格を自動で監視し、目標価格に応じた「買い時
 
 ## システム構成
 ### Frontend
-- Framework: Next.js 15 (App Router)
+- **Framework**: Next.js 15 (App Router)
 - Language: TypeScript
 - Styling: Tailwind CSS
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-2. Frontend (Next.js)
+### 2. Frontend (Next.js)
 ```bash
 cd my-frontend
 npm install
